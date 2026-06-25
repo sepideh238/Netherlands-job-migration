@@ -24,3 +24,15 @@ I use **GitHub Projects** to manage my sprints. You can see my live progress in 
 - [IND Netherlands](https://ind.nl/en)
 - [Government.nl](https://www.government.nl/)
 - [Academic Transfer](https://www.academictransfer.com/)
+# EdTech Dashboard Project
+
+## Project Structure
+```text
+src/
+├── assets/             # Global assets (styles, images)
+├── components/         # Reusable UI components
+├── core/               # Services, Utils, Constants
+├── features/           # Feature-based modules (Analytics, Students)
+├── hooks/              # Custom React hooks
+└── pages/              # Route components
+
