@@ -1,0 +1,9 @@
+$primary-color: #003082; // رنگ آبی پرچم هلند (تقریبی)
+$bg-color: #f4f4f4;
+
+body {
+  background-color: $bg-color;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  color: $primary-color;
+}
