@@ -1,16 +1,59 @@
-# React + Vite
+# 🇳🇱 Career Migration Roadmap: Iran to Netherlands
+## Focus: React Developer | EdTech Specialist | Master's Researcher
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Welcome to my journey! This repository serves as a centralized hub for tracking my professional growth, master's thesis progress, and job application process for the Netherlands.
 
-Currently, two official plugins are available:
+### 🎯 Primary Goal
+Secure a **Highly Skilled Migrant (HSM)** job offer in the Netherlands as a Frontend/Fullstack Developer, specializing in **Educational Technology (EdTech)**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🎓 Thesis & Research
+- **Topic:** Development of an Interactive Educational Dashboard for Smart Classrooms
+- **Tech Stack:** React.js, SCSS, Other Tools
+- **Status:** Phase 2 (Research & Core Development)
 
-## React Compiler
+### 🛠 Tech Stack
+- **Languages:** JavaScript (ES6+), TypeScript
+- **Frontend:** React, Redux, SCSS, Tailwind
+- **Tools:** Git, Kanban, Agile Methodologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+### 📈 Progress Tracking (Kanban)
+I use **GitHub Projects** to manage my sprints. You can see my live progress in the **Projects** tab of this repository.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### 🔗 Official Resources I Follow
+- [IND Netherlands](https://ind.nl/en)
+- [Government.nl](https://www.government.nl/)
+- [Academic Transfer](https://www.academictransfer.com/)
+
+---
+
+## 📁 Project Structure
+```bash
+my-edtech-dashboard/
+├── public/                 # فایل‌های استاتیک (favicon, index.html)
+├── src/
+│   ├── assets/             # تصاویر، فونت‌ها و فایل‌های ثابت
+│   │   └── styles/
+│   │       ├── _variables.scss  # متغیرهای رنگ و فونت
+│   │       └── main.scss        # استایل‌های کلی
+│   ├── components/         # کامپوننت‌های اشتراکی و کوچک (Reusable)
+│   │   ├── common/         # Button, Input, Card, Modal
+│   │   └── layout/         # Sidebar, Header, Footer
+│   ├── core/               # بخش‌های مرکزی (Config, API, Constants)
+│   │   ├── services/       # axios instances, API calls
+│   │   └── utils/          # توابع کمکی (date-formatter, helpers)
+│   ├── features/           # بخش‌های اصلی داشبورد
+│   │   ├── students/       # مدیریت دانش‌آموزان
+│   │   ├── courses/        # مدیریت دوره‌ها
+│   │   └── analytics/      # بخش نمودارها و آمار
+│   ├── hooks/              # Custom Hooks عمومی
+│   ├── pages/              # صفحات اصلی متصل به Routeها
+│   │   ├── Dashboard.jsx
+│   │   ├── Login.jsx
+│   │   └── NotFound.jsx
+│   ├── App.jsx             # روتینگ اصلی و Providerها
+│   └── main.jsx            # نقطه ورود React
+├── .gitignore              # فایل‌های نادیده گرفته شده توسط Git
+├── package.json            # پکیج‌ها و اسکریپت‌ها
+└── README.md               # مستندات پروژه
